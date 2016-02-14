@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC2329571C70CBEB00330D59 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2329561C70CBEB00330D59 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC23295E1C70CBEB00330D59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC23294C1C70CBEB00330D59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC2329521C70CBEB00330D59;
+			remoteInfo = himalaya2KML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC2329531C70CBEB00330D59 /* himalaya2KML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = himalaya2KML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2329561C70CBEB00330D59 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BC2329581C70CBEB00330D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC23295D1C70CBEB00330D59 /* himalaya2KMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = himalaya2KMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC2329611C70CBEB00330D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC2329511C70CBEB00330D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC23295A1C70CBEB00330D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC23294B1C70CBEB00330D59 = {
+			isa = PBXGroup;
+			children = (
+				BC2329551C70CBEB00330D59 /* himalaya2KML */,
+				BC2329601C70CBEB00330D59 /* himalaya2KMLTests */,
+				BC2329541C70CBEB00330D59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC2329541C70CBEB00330D59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC2329531C70CBEB00330D59 /* himalaya2KML.app */,
+				BC23295D1C70CBEB00330D59 /* himalaya2KMLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC2329551C70CBEB00330D59 /* himalaya2KML */ = {
+			isa = PBXGroup;
+			children = (
+				BC2329561C70CBEB00330D59 /* main.swift */,
+				BC2329581C70CBEB00330D59 /* Info.plist */,
+			);
+			path = himalaya2KML;
+			sourceTree = "<group>";
+		};
+		BC2329601C70CBEB00330D59 /* himalaya2KMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC2329611C70CBEB00330D59 /* Info.plist */,
+			);
+			path = himalaya2KMLTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC2329521C70CBEB00330D59 /* himalaya2KML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2329641C70CBEB00330D59 /* Build configuration list for PBXNativeTarget "himalaya2KML" */;
+			buildPhases = (
+				BC2329501C70CBEB00330D59 /* Sources */,
+				BC2329511C70CBEB00330D59 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = himalaya2KML;
+			productName = himalaya2KML;
+			productReference = BC2329531C70CBEB00330D59 /* himalaya2KML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC23295C1C70CBEB00330D59 /* himalaya2KMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2329671C70CBEB00330D59 /* Build configuration list for PBXNativeTarget "himalaya2KMLTests" */;
+			buildPhases = (
+				BC2329591C70CBEB00330D59 /* Sources */,
+				BC23295A1C70CBEB00330D59 /* Frameworks */,
+				BC23295B1C70CBEB00330D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC23295F1C70CBEB00330D59 /* PBXTargetDependency */,
+			);
+			name = himalaya2KMLTests;
+			productName = himalaya2KMLTests;
+			productReference = BC23295D1C70CBEB00330D59 /* himalaya2KMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC23294C1C70CBEB00330D59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mykola Stukalo";
+				TargetAttributes = {
+					BC2329521C70CBEB00330D59 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BC23295C1C70CBEB00330D59 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BC2329521C70CBEB00330D59;
+					};
+				};
+			};
+			buildConfigurationList = BC23294F1C70CBEB00330D59 /* Build configuration list for PBXProject "himalaya2KML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC23294B1C70CBEB00330D59;
+			productRefGroup = BC2329541C70CBEB00330D59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC2329521C70CBEB00330D59 /* himalaya2KML */,
+				BC23295C1C70CBEB00330D59 /* himalaya2KMLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC23295B1C70CBEB00330D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC2329501C70CBEB00330D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2329571C70CBEB00330D59 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2329591C70CBEB00330D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC23295F1C70CBEB00330D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC2329521C70CBEB00330D59 /* himalaya2KML */;
+			targetProxy = BC23295E1C70CBEB00330D59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC2329621C70CBEB00330D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BC2329631C70CBEB00330D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BC2329651C70CBEB00330D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = himalaya2KML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = name.stukalo.mykola.himalaya2KML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC2329661C70CBEB00330D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = himalaya2KML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = name.stukalo.mykola.himalaya2KML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC2329681C70CBEB00330D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = himalaya2KMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = name.stukalo.mykola.himalaya2KMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/himalaya2KML.app/Contents/MacOS/himalaya2KML";
+			};
+			name = Debug;
+		};
+		BC2329691C70CBEB00330D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = himalaya2KMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = name.stukalo.mykola.himalaya2KMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/himalaya2KML.app/Contents/MacOS/himalaya2KML";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC23294F1C70CBEB00330D59 /* Build configuration list for PBXProject "himalaya2KML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2329621C70CBEB00330D59 /* Debug */,
+				BC2329631C70CBEB00330D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2329641C70CBEB00330D59 /* Build configuration list for PBXNativeTarget "himalaya2KML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2329651C70CBEB00330D59 /* Debug */,
+				BC2329661C70CBEB00330D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC2329671C70CBEB00330D59 /* Build configuration list for PBXNativeTarget "himalaya2KMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC2329681C70CBEB00330D59 /* Debug */,
+				BC2329691C70CBEB00330D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC23294C1C70CBEB00330D59 /* Project object */;
+}
