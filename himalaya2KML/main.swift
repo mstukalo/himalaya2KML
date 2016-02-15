@@ -1,7 +1,8 @@
 import Foundation
 
-let basePath = "/Users/mykolastukalo/Documents/outdoor/himalaya/txt/"
-let path = basePath + "109_carter_himalaya_aaj1985.txt"
+let outputPath: NSString = "~/Documents/"
+let optionalPath = NSBundle.mainBundle().pathForResource("himalaya", ofType: "txt")
+guard let path = optionalPath else {print("Cannot find input file"); exit(0)}
 
 let fileContent = readFile(path)
 
@@ -33,12 +34,11 @@ for string in separatedArray {
     }
 }
 
-//printNamedEntityArray(resultingArray, level: 1)
-
 let kmlOutput = convertEntitiesToKML(resultingArray).kml()
 
+let URLToWrite = NSURL.fileURLWithPath(outputPath.stringByExpandingTildeInPath).URLByAppendingPathComponent("himalaya.kml")
 do {
-    try kmlOutput.writeToFile(basePath + "himalaya.kml", atomically: true, encoding: NSUTF8StringEncoding)
+    try kmlOutput.writeToURL(URLToWrite, atomically: true, encoding: NSUTF8StringEncoding)
 }
 catch {
     print("Failed to write kml to file with error \(error)")

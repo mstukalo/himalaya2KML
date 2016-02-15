@@ -81,6 +81,7 @@
 		BC095E4A1C7117D1004D4ADA /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = BC095E021C7117D0004D4ADA /* TBXML.m */; };
 		BC095E4C1C711803004D4ADA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC095E4B1C711803004D4ADA /* libz.tbd */; };
 		BC095E4E1C71192E004D4ADA /* Entities2KML.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC095E4D1C71192E004D4ADA /* Entities2KML.swift */; };
+		BC095E5A1C720ECE004D4ADA /* himalaya.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = BC095E531C720D9D004D4ADA /* himalaya.txt */; };
 		BC2329571C70CBEB00330D59 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2329561C70CBEB00330D59 /* main.swift */; };
 		BC23296B1C70CC1200330D59 /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC23296A1C70CC1200330D59 /* Files.swift */; };
 		BC23296D1C70CEFE00330D59 /* RangeProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC23296C1C70CEFE00330D59 /* RangeProcessor.swift */; };
@@ -95,6 +96,19 @@
 			remoteInfo = himalaya2KML;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC095E591C720EC7004D4ADA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				BC095E5A1C720ECE004D4ADA /* himalaya.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BC095D701C7117D0004D4ADA /* KML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KML.h; sourceTree = "<group>"; };
@@ -246,6 +260,11 @@
 		BC095E4B1C711803004D4ADA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		BC095E4D1C71192E004D4ADA /* Entities2KML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Entities2KML.swift; path = himalaya2KML/Entities2KML.swift; sourceTree = SOURCE_ROOT; };
 		BC095E4F1C7119A9004D4ADA /* himalaya2KML-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "himalaya2KML-Bridging-Header.h"; sourceTree = "<group>"; };
+		BC095E531C720D9D004D4ADA /* himalaya.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = himalaya.txt; sourceTree = "<group>"; };
+		BC095E551C720D9D004D4ADA /* mountain5k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountain5k.png; sourceTree = "<group>"; };
+		BC095E561C720D9D004D4ADA /* mountain6k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountain6k.png; sourceTree = "<group>"; };
+		BC095E571C720D9D004D4ADA /* mountain7k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountain7k.png; sourceTree = "<group>"; };
+		BC095E581C720D9D004D4ADA /* mountain8k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mountain8k.png; sourceTree = "<group>"; };
 		BC2329531C70CBEB00330D59 /* himalaya2KML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = himalaya2KML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2329561C70CBEB00330D59 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BC2329581C70CBEB00330D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -277,6 +296,7 @@
 		BC095D6E1C7117D0004D4ADA /* third-party */ = {
 			isa = PBXGroup;
 			children = (
+				BC095E4B1C711803004D4ADA /* libz.tbd */,
 				BC095D6F1C7117D0004D4ADA /* KMLFramework */,
 				BC095DFC1C7117D0004D4ADA /* TBXML */,
 			);
@@ -443,10 +463,29 @@
 			path = TBXML;
 			sourceTree = "<group>";
 		};
+		BC095E521C720D9D004D4ADA /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				BC095E531C720D9D004D4ADA /* himalaya.txt */,
+				BC095E541C720D9D004D4ADA /* images */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		BC095E541C720D9D004D4ADA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BC095E551C720D9D004D4ADA /* mountain5k.png */,
+				BC095E561C720D9D004D4ADA /* mountain6k.png */,
+				BC095E571C720D9D004D4ADA /* mountain7k.png */,
+				BC095E581C720D9D004D4ADA /* mountain8k.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		BC23294B1C70CBEB00330D59 = {
 			isa = PBXGroup;
 			children = (
-				BC095E4B1C711803004D4ADA /* libz.tbd */,
 				BC2329551C70CBEB00330D59 /* himalaya2KML */,
 				BC2329601C70CBEB00330D59 /* himalaya2KMLTests */,
 				BC2329541C70CBEB00330D59 /* Products */,
@@ -465,6 +504,7 @@
 		BC2329551C70CBEB00330D59 /* himalaya2KML */ = {
 			isa = PBXGroup;
 			children = (
+				BC095E521C720D9D004D4ADA /* assets */,
 				BC095D6E1C7117D0004D4ADA /* third-party */,
 				BC2329561C70CBEB00330D59 /* main.swift */,
 				BC23296C1C70CEFE00330D59 /* RangeProcessor.swift */,
@@ -493,6 +533,7 @@
 			buildPhases = (
 				BC2329501C70CBEB00330D59 /* Sources */,
 				BC2329511C70CBEB00330D59 /* Frameworks */,
+				BC095E591C720EC7004D4ADA /* CopyFiles */,
 			);
 			buildRules = (
 			);
