@@ -9,10 +9,10 @@
 import Foundation
 
 let stylesDictionary = [
-    5000 : ("mountain-5k-style", "https://www.dropbox.com/s/rbj2gn9gnq9x2r3/mountain5k.png?dl=1"),
-    6000 : ("mountain-6k-style", "https://www.dropbox.com/s/gw3hiyl698ts3ft/mountain6k.png?dl=1"),
-    7000 : ("mountain-7k-style", "https://www.dropbox.com/s/lum3aqibzyltsp9/mountain7k.png?dl=1"),
-    8000 : ("mountain-8k-style", "https://www.dropbox.com/s/nr5oym594tcuytb/mountain8k.png?dl=1")]
+    5000 : ("mountain-5k-style", "https://github.com/mstukalo/himalaya2KML/blob/master/himalaya2KML/assets/images/mountain5k.png?raw=true"),
+    6000 : ("mountain-6k-style", "https://github.com/mstukalo/himalaya2KML/blob/master/himalaya2KML/assets/images/mountain6k.png?raw=true"),
+    7000 : ("mountain-7k-style", "https://github.com/mstukalo/himalaya2KML/blob/master/himalaya2KML/assets/images/mountain7k.png?raw=true"),
+    8000 : ("mountain-8k-style", "https://github.com/mstukalo/himalaya2KML/blob/master/himalaya2KML/assets/images/mountain8k.png?raw=true")]
 
 
 func convertEntitiesToKML(entities: [NamedEntity]) -> KMLRoot {
