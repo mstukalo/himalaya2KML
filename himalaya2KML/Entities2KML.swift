@@ -75,6 +75,23 @@ func rangeToKMLFolder(range: Range) -> KMLFolder {
     for point in range.points {
         let placemark = KMLPlacemark()
         placemark.name = point.name
+
+        var regularExpression: NSRegularExpression?
+        do {
+            try regularExpression = NSRegularExpression(pattern: "P\\d\\d\\d\\d", options: NSRegularExpressionOptions.CaseInsensitive)
+
+        }
+        catch {
+            print("Failed to create regular expression with error \(error)")
+        }
+        
+        if let regularExpression = regularExpression {
+            if regularExpression.numberOfMatchesInString(point.name, options: NSMatchingOptions.Anchored, range: NSMakeRange(0, point.name.characters.count)) == 0 {
+                    placemark.descriptionValue = String(Int(point.height)) + " meters"
+            }
+            
+        }
+
         
         if (point.name.containsString("("))
         {
@@ -83,7 +100,14 @@ func rangeToKMLFolder(range: Range) -> KMLFolder {
                 print("Failed to parse point description \(point.name)")
                 exit(0)
             }
-            placemark.descriptionValue = separatedArray[1].stringByTrimmingCharactersInSet(NSCharacterSet(charactersInString: ")"))
+            
+            if placemark.descriptionValue  != nil {
+                placemark.descriptionValue = placemark.descriptionValue + ". " + separatedArray[1].stringByTrimmingCharactersInSet(NSCharacterSet(charactersInString: ")"))
+            }
+            else {
+                placemark.descriptionValue = separatedArray[1].stringByTrimmingCharactersInSet(NSCharacterSet(charactersInString: ")"))
+            }
+            
             placemark.name = separatedArray[0]
         }
         
